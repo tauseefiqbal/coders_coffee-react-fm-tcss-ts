@@ -6,18 +6,20 @@ A modern, animated coffee shop landing page built with React, Framer Motion, and
 
 ## 📑 Table of Contents
 
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Deployment](#-deployment)
-- [How to Use](#-how-to-use)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Build for Production](#build-for-production)
-  - [Preview Production Build](#preview-production-build)
-- [Project Structure](#-project-structure)
-- [Screenshots](#-screenshots)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [☕ Coders Coffee](#-coders-coffee)
+  - [📑 Table of Contents](#-table-of-contents)
+  - [✅ Features](#-features)
+  - [🛠 Tech Stack](#-tech-stack)
+  - [🚀 Deployment](#-deployment)
+  - [📖 How to Use](#-how-to-use)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Build for Production](#build-for-production)
+    - [Preview Production Build](#preview-production-build)
+  - [📁 Project Structure](#-project-structure)
+  - [📸 Screenshots](#-screenshots)
+  - [🤝 Contributing](#-contributing)
+  - [📄 License](#-license)
 
 ---
 
