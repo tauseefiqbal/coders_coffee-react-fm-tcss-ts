@@ -1,9 +1,15 @@
-import React from "react";
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import Coffee1 from "../../assets/coffee/coffee1.png";
 import Coffee3 from "../../assets/coffee/coffee3.png";
 
-const servicesData = [
+interface Service {
+  id: number;
+  image: string;
+  title: string;
+  subtitle: string;
+}
+
+const servicesData: Service[] = [
   {
     id: 1,
     image: Coffee1,
@@ -24,27 +30,26 @@ const servicesData = [
   },
 ];
 
-const cardVariants = {
+const cardVariants: Variants = {
   hidden: { opacity: 0, y: 20 },
   visible: {
     opacity: 1,
     y: 0,
     transition: {
-      // duration: 0.4, // Increase duration for smoother animation
       type: "spring",
       stiffness: 150,
       damping: 10,
-      ease: "easeInOut", // Use an easing function
+      ease: "easeInOut",
     },
   },
 };
-const containerVariants = {
+const containerVariants: Variants = {
   hidden: { opacity: 1 },
   visible: {
     opacity: 1,
     transition: {
       delay: 0.6,
-      staggerChildren: 0.4, // delay between animations
+      staggerChildren: 0.4,
     },
   },
 };
@@ -60,7 +65,7 @@ const Services = () => {
             type: "spring",
             stiffness: 150,
             damping: 10,
-            delay: 0.2, // Added delay for the first element
+            delay: 0.2,
           }}
           className="text-3xl font-bold text-lightGray"
         >
@@ -73,7 +78,7 @@ const Services = () => {
             type: "spring",
             stiffness: 150,
             damping: 10,
-            delay: 0.6, // Added delay for the first element
+            delay: 0.6,
           }}
           className="text-sm opacity-50"
         >
@@ -92,6 +97,7 @@ const Services = () => {
       >
         {servicesData.map((service) => (
           <motion.div
+            key={service.id}
             variants={cardVariants}
             className="text-center p-4 space-y-6"
           >

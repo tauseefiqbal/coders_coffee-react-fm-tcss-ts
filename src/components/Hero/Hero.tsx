@@ -5,7 +5,7 @@ import Navbar from "../Navbar/Navbar";
 import { motion } from "framer-motion";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
-const bgImage = {
+const bgImage: React.CSSProperties = {
   backgroundImage: `url(${BgImage})`,
   backgroundSize: "cover",
   backgroundPosition: "center",

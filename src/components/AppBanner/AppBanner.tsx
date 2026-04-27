@@ -4,7 +4,7 @@ import AppStoreImg from "../../assets/website/app_store.png";
 import PlayStoreImg from "../../assets/website/play_store.png";
 import { motion } from "framer-motion";
 
-const BannerStyle = {
+const BannerStyle: React.CSSProperties = {
   backgroundImage: `url(${bannerImg})`,
   backgroundSize: "cover",
   backgroundPosition: "center",

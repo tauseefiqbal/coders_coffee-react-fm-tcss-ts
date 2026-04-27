@@ -1,8 +1,12 @@
-import React from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { motion } from "framer-motion";
 
-const Navbar = ({ sidebar, setSidebar }) => {
+interface NavbarProps {
+  sidebar: boolean;
+  setSidebar: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+const Navbar = ({ sidebar, setSidebar }: NavbarProps) => {
   return (
     <nav className="absolute top-0 left-0 w-full pt-10 text-white z-[9999]">
       <div className="container">
