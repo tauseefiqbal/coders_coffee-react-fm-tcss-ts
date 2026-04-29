@@ -74,8 +74,8 @@ The app is live and deployed on **Vercel**.
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/tauseefiqbal/coders_coffee-react-fm-tcss-js.git
-   cd coders_coffee-react-fm-tcss-js
+   git clone https://github.com/tauseefiqbal/coders_coffee-react-fm-tcss-ts.git
+   cd coders_coffee-react-fm-tcss-ts
    ```
 
 2. **Install dependencies**
