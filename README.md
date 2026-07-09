@@ -58,7 +58,7 @@ A modern, animated coffee shop landing page built with React, Framer Motion, and
 
 The app is live and deployed on **Vercel**.
 
-🔗 **Live URL:** [https://coders-coffee-react-fm-tcss-ts.vercel.app/](https://coders-coffee-react-fm-tcss-ts.vercel.app/)
+🔗 **Live URL:** [https://coders-coffee-react-fm-tcss-ts.netlify.app/](https://coders-coffee-react-fm-tcss-ts.netlify.app/)
 
 ---
 
