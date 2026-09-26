@@ -11,10 +11,11 @@ A modern, animated coffee shop landing page built with React, Framer Motion, and
   - [✅ Features](#-features)
   - [🛠 Tech Stack](#-tech-stack)
   - [🚀 Deployment](#-deployment)
-  - [� Test and Admin Users Credentials](#-test-and-admin-users-credentials)
+  - [🔐 Test and Admin Users Credentials](#-test-and-admin-users-credentials)
   - [📖 How to Use](#-how-to-use)
+  - [📦 Installation](#-installation)
     - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
+    - [Setup Steps](#setup-steps)
     - [Build for Production](#build-for-production)
     - [Preview Production Build](#preview-production-build)
   - [📁 Project Structure](#-project-structure)
@@ -71,12 +72,16 @@ The app is live and deployed on **Vercel**.
 
 ## 📖 How to Use
 
+---
+
+## 📦 Installation
+
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) (v18 or higher recommended)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-### Installation
+### Setup Steps
 
 1. **Clone the repository**
 
